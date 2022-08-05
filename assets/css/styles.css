@@ -20,20 +20,9 @@ body{
 .navbar-brand{
     font-family: 'Inter', sans-serif;
     font-size: 30px;
-    font-weight: 20;
-    
+    font-weight: 20;   
 }
 
-/* Hero Section */
-
-#hero-section{
-    background-image: url("../img/carousel1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    position: relative;
-}
 
 /* Inicio */
 
@@ -70,6 +59,14 @@ body{
     color: #fff;
 }
 
+.card-title {
+    color: rgb(235, 237, 207);
+}
+
+.card-text {
+    color: rgb(235, 237, 207);
+}
+
 /* Contacto */
 
 #Contacto h1 {
@@ -77,6 +74,11 @@ body{
     font-size: 30px;
     color: #fff;
 }
+
+.custom-tooltip {
+    background-color: rgb(76, 206, 249);
+  }
+
 
 /* Footer */
 

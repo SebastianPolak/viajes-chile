@@ -39,16 +39,33 @@
               <li class="nav-item">
                 <a class="nav-link" href="#Contacto">Contacto</a>
               </li>
-              
-              
-            </ul>
-            
-          </div>
+           </ul>
+         </div>
         </div>
       </nav>
 
       <header id="hero-section">
-         
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="los andes">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="isla de pascuas">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="pinguino">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </header>
 
       
@@ -127,7 +144,7 @@
                   </div>
                 </div>
                 <div class="col-12 col-sm-3 my-3">
-                  <div class="card border-0">
+                  <div class="card border-0 bg-info">
                     <img src="./assets/img/card4.jpg" class="card-img-top" alt="selva chilena">
                     <div class="card-body">
                       <div class="card-title">VEGETACION Y FAUNA</div>
@@ -151,17 +168,17 @@
              
               <form>
                 <div class="mb-3">
-                  <label for="nombre" class="form-label py-2">Nombre</label>
+                  <label for="nombre" class="form-label py-2 "data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Ingrese nombre completo">Nombre</label>
                   <input type="nombre" class="form-control" id="nombre"   aria-describedby="emailHelp">
                   
                 </div>
                 <div class="mb-2">
-                  <label for="asunto" class="form-label py-2">Asunto</label>
+                  <label for="asunto" class="form-label py-2"data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Su lugar a conocer...">Asunto</label>
                   <input type="asunto" class="form-control" id="asunto" placeholder>
                 </div>
 
                 <div class="mb-2">
-                  <label for="mensaje" class="form-label py-2">Mensaje</label>
+                  <label for="mensaje" class="form-label py-2"data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Cuentenos mas!">Mensaje</label>
                   <input type="mensaje" class="form-control p-5" id="mensaje" placeholder>
                 </div>
                
@@ -208,7 +225,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        Agregue informacion acerca de este vinculo...
+        Solicite mas informacion acerca de este vinculo...
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

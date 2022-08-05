@@ -59,6 +59,10 @@ body{
     color: #fff;
 }
 
+.hr {
+    color: rgb(69, 188, 228);
+}
+
 .card-title {
     color: rgb(235, 237, 207);
 }

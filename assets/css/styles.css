@@ -80,16 +80,21 @@ body{
     font-style: italic;
   }
 
+  #enviar {
+    color: rgb(235, 237, 207);
+  }
+
 
 /* Footer */
 
 #Footer h1 {
     font-family: 'Inter', sans-serif;
     font-size: 30px;
+    color: rgb(235, 237, 207);
 }
 
 #Footer a {
-    color: white;
+    color: rgb(235, 237, 207);
     text-decoration: none;
 
 }
